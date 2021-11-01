@@ -77,7 +77,6 @@ header nav a:hover{text-transform: uppercase;
     background-image: url('https://picsum.photos/400/300');
     background-repeat: no-repeat;
     background-size: cover;
-    background: balck;
     margin:1%;
 }
 
@@ -170,3 +169,44 @@ footer button{
         text-align: center;
     }
 }
+
+@media(max-width: 500px){
+    header{
+        background: white;
+    }
+    header h1{
+        text-align: center;
+    }
+    
+    header nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    header nav a {
+        font-size: 2rem;
+        border: 1px solid black;
+        width: 25%;
+        text-align: center;
+    }
+
+    .introduction{
+        flex-direction: column;
+    }
+
+    .introduction div{
+        width: auto;
+    }
+
+    .introduction .left{
+        height: 25vh;
+        margin-top: 2%;
+    }
+
+    .introduction .right h1{
+        font-size: 2em;
+    }
+
+    .introduction .right button{
+        font-size: 1.5rem;
+    }
+}   
