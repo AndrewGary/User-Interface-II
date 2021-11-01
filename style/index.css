@@ -209,4 +209,25 @@ footer button{
     .introduction .right button{
         font-size: 1.5rem;
     }
+
+    .introduction .right p{
+        margin-top: 0;
+    }
+
+    .projects{
+        justify-content: space-evenly;
+    }
+    .projects .project{
+        width: 45%;
+    }
+
+    .projects .project7, .project8{
+        display: none;
+    }
+
+    footer button{
+        padding: 1% 0;
+        font-size: 1.75rem;
+        width: 20%;
+    }
 }   
